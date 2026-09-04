@@ -1,4 +1,4 @@
-.{
+.i{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
     padding: 40px 20px;
 }
 
-,cabecera h1 {
+.cabecera h1 {
     font-size: 2.2rem;
     letter-spacing: 2px;
 }
@@ -62,5 +62,102 @@ body {
     margin-bottom:6px;
 }
 
+.imagen-marco img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.lista-aprendizaje {
+  list-style: none;
+}
+
+.lista-aprendizaje li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.lista-aprendizaje li:last-child {
+  border-bottom: none;
+}
+
+/* ---------- Logos de lenguajes ---------- */
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.logo-caja {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.logo-html {
+  background-color: #e34c26;
+}
+
+.logo-css {
+  background-color: #2965f1;
+}
+
+.logo-js {
+  background-color: #f0db4f;
+  color: #2c3e50;
+}
+
+/* ---------- Conclusiones ---------- */
+.conclusiones p {
+  text-align: justify;
+}
+
+/* ---------- Footer (ancho completo y personalizado) ---------- */
+.pie {
+  width: 100%;
+  background-color: #5b9bd5;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.pie-contacto {
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+}
+
+.pie-integrantes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pie-titulo {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.pie-integrantes span:not(.pie-titulo) {
+  background-color: #ffffff;
+  color: #3a6ea5;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
 
 
