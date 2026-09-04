@@ -1,0 +1,66 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f6;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/*-------Cabecera(ancho completo)-------*/
+.cabecera {
+    width: 100%;
+    background-color: #5b9bd5;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+,cabecera h1 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.cabecera subtitulo {
+    margin-top: 10px;
+    font-size: italic;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* ---------- Contenido centrado ---------- */
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #ffffff;
+}
+
+.tarjeta {
+    padding: 25px 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tarjeta:last-child {
+    border-bottom: none;
+}
+
+.tarjeta h2 {
+    color:#3a6ea5;
+    margin-bottom: 14px;
+    border-left: 4px solid #5b9bd5;
+    padding-left: 10px;
+}
+
+.tarjeta h3 {
+    color:#34495e;
+    margin-top: 16px;
+    margin-bottom:6px;
+}
+
+
+
