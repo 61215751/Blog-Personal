@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
 }
 
-/*-------Cabecera(ancho completo)-------*/
+
 .cabecera {
     width: 100%;
     background-color: #5b9bd5;
@@ -32,7 +32,7 @@ body {
     opacity: 0.9;
 }
 
-/* ---------- Contenido centrado ---------- */
+
 .contenido {
     max-width: 800px;
     margin: 0 auto;
@@ -84,7 +84,7 @@ body {
   border-bottom: none;
 }
 
-/* ---------- Logos de lenguajes ---------- */
+
 .logos {
   display: flex;
   justify-content: center;
@@ -118,12 +118,10 @@ body {
   color: #2c3e50;
 }
 
-/* ---------- Conclusiones ---------- */
 .conclusiones p {
   text-align: justify;
 }
 
-/* ---------- Footer (ancho completo y personalizado) ---------- */
 .pie {
   width: 100%;
   background-color: #5b9bd5;
